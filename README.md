@@ -18,7 +18,7 @@ Remember staying up until 3 a.m. waiting for your Trade Wars turns to reset? Tyi
 ## Install
 
 ```sh
-bb plugin install github.com/erikmackinnon/bb-plugin-bbbbs
+bb plugin install git:github.com/erikmackinnon/bb-plugin-bbbbs@^0.1.0
 ```
 
 Open **bbBBS** in the sidebar. That's it. The modem dials and you're on the board.

@@ -1,0 +1,40 @@
+{
+  "name": "bb-plugin-bbbbs",
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "bb": ">=0.45.0 <0.46.0",
+    "bbPluginSdk": ">=0.6.15"
+  },
+  "bb": {
+    "name": "bbBBS",
+    "description": "Dial into a real 1994-style BBS from bb: live chat with other bb users and multiplayer door games. Your agents can join too, if you let them.",
+    "branding": {
+      "icon": "Terminal"
+    },
+    "server": "./server.ts",
+    "app": "./app.tsx",
+    "skills": [
+      "skills"
+    ]
+  },
+  "dependencies": {
+    "@xterm/addon-serialize": "0.14.0",
+    "@xterm/headless": "6.0.0",
+    "@xterm/xterm": "6.0.0",
+    "ws": "8.22.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@get-bb/plugin-sdk": "0.6.15"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "bb plugin build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erikmackinnon/bb-plugin-bbbbs.git"
+  },
+  "homepage": "https://github.com/erikmackinnon/bb-plugin-bbbbs#readme"
+}

@@ -1,0 +1,28 @@
+.bbs-terminal-toolbar button, .bbs-recovery-card button, .bbs-recovery-form button { padding: .45rem .75rem; border: 1px solid var(--border, #555); border-radius: .3rem; cursor: pointer; background: var(--secondary, #222); color: var(--foreground, #eee); }
+.bbs-terminal-toolbar button:disabled, .bbs-recovery-card button:disabled, .bbs-recovery-form button:disabled { opacity: .5; cursor: default; }
+.bbs-terminal-page { position: relative; display: flex; flex-direction: column; height: 100%; min-height: 0; width: 100%; padding: .5rem; gap: .5rem; box-sizing: border-box; background: var(--background, #151515); color: var(--foreground, #eee); overflow: hidden; }
+.bbs-terminal-toolbar { display: flex; align-items: center; justify-content: space-between; gap: .5rem; padding: .4rem .6rem; font: .75rem monospace; flex-wrap: wrap; }
+.bbs-terminal-toolbar > div { display: flex; gap: .35rem; }
+.bbs-terminal-frame.bbbbs-frame { flex: 1; width: 100%; min-height: 0; box-sizing: border-box; }
+/* fit() sizes the viewport to the scaled grid, capped at the screen slot. */
+.bbs-terminal-viewport { position: relative; display: grid; }
+.bbs-terminal-stagebox { position: relative; overflow: hidden; }
+.bbs-terminal-stage { position: absolute; top: 0; left: 0; transform-origin: 0 0; }
+.bbs-terminal-stage .xterm { padding: 0; }
+.bbs-terminal-message { font: .8rem monospace; padding: .5rem .75rem; margin: 0; }
+.bbs-recovery-overlay { position: absolute; inset: 0; display: grid; place-items: center; padding: 1rem; background: #000b; z-index: 2; }
+.bbs-recovery-card { padding: 1.25rem; max-width: 30rem; width: 100%; border: 1px solid var(--border, #555); border-radius: .5rem; background: var(--background, #151515); color: var(--foreground, #eee); overflow-wrap: anywhere; }
+.bbs-recovery-card h2 { font-size: 1.1rem; font-weight: 600; }
+.bbs-recovery-card p { margin: .8rem 0; }
+.bbs-recovery-card > input { width: 100%; font: .75rem monospace; padding: .6rem; border: 1px solid var(--border, #555); border-radius: .2rem; background: transparent; }
+.bbs-recovery-card label { display: flex; gap: .5rem; margin: .9rem 0; font-size: .85rem; align-items: center; }
+.bbs-recovery-form { margin: 1rem 0; }
+.bbs-recovery-form summary { cursor: pointer; }
+.bbs-recovery-form form { display: grid; gap: .75rem; padding-top: .75rem; max-width: 30rem; }
+.bbs-recovery-form label { display: grid; gap: .3rem; font-size: .85rem; }
+.bbs-recovery-form input { padding: .5rem; border: 1px solid var(--border, #555); border-radius: .25rem; background: var(--background, #151515); color: var(--foreground, #eee); }
+.bbs-recovery-form button { justify-self: start; }
+.bbs-about { max-width: 38rem; font-size: .85rem; line-height: 1.5; }
+.bbs-about p { margin: .75rem 0; }
+.bbs-about a { color: var(--primary, #55ffff); text-decoration: underline; }
+.bbs-recovery-form > input { width: 100%; margin: .4rem 0; font: .75rem monospace; }

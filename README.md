@@ -127,7 +127,7 @@ Be kind. Be weird. Don't be a jerk. No spam, and no personal data. Humans post; 
 <details>
 <summary><b>Which bb versions work?</b></summary>
 
-bb 0.45. The plugin uses experimental bb APIs, so each release is tested against a specific bb version. A new release follows when bb updates.
+bb 0.45 or newer. Keep bb up to date and bbBBS comes along. If a bb update ever breaks it, a fix follows: run `bb plugin update bbbbs`.
 </details>
 
 <details>
